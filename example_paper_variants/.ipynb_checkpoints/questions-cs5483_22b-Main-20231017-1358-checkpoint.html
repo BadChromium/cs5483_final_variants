@@ -1,0 +1,1615 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Moodle Quiz XHTML Export</title>
+<style type="text/css">
+body {
+     font-family: verdana, helvetica, sans-serif;
+     background-color: #fff;
+     color: #000;
+ }
+ 
+ .question {
+     border: 1px solid #ddd;
+     margin: 5px;
+     padding: 3px;
+ }
+ 
+ .question h3 {
+     font-weight: normal;
+     font-size: 125%;
+ }
+ 
+ .question ul {
+     list-style-type: none;
+ }
+</style>
+</head>
+<body>
+<form action="...REPLACE ME..." method="post">
+
+
+<!-- question: 106783  name: Optics -->
+<div class="question">
+<h3>Optics</h3>
+<p class="questiontext"><span class="filter_mathjaxloader_equation"><p>Drag the appropriate terms to the blanks.</p>
+
+<div class="note">
+Each term may be dragged to multiple blanks, and some terms may not be needed.
+</div>
+
+<div class="sol">    
+<p>Both DBSCAN and OPTICS are [[1]] clustering methods. Similar to DBSCAN, OPTICS requires [[2]] input parameters <span class="nolink">\(\epsilon\)</span> and <span class="nolink">\(\operatorname{MinPts}\)</span> as DBSCAN does. Unlike DBSCAN, OPTICS can find clusters of [[3]] densities because of the following modifications:</p>
+
+<ul>
+<li>  Instead of simply checking whether a data point is a [[4]], OPTICS calculates the [[5]] in addition to reflect the density of the region containing the data point. 
+<li> Instead of growing the cluster to any [[6]], it visits points with [[7]] [[8]] first. 
+</ul>    
+
+<p>More precisely, given a data point <span class="nolink">\(\boldsymbol{p}\)</span> is a [[4]], it calculates [[9]] <span class="nolink">\(\epsilon'\leq \epsilon\)</span> such that the <span class="nolink">\(\epsilon'\)</span>-neighborhood contains [[10]] than or equal to <span class="nolink">\(\operatorname{MinPts}\)</span> data points. A priority queue is used to store its [[6]] <span class="nolink">\(\boldsymbol{q}\)</span> according to the [[8]], which is [[15]] between the [[5]] of <span class="nolink">\(\boldsymbol{p}\)</span> and the [[11]] from <span class="nolink">\(\boldsymbol{p}\)</span> to <span class="nolink">\(\boldsymbol{q}\)</span>.
+</p>
+</div></span></p>
+<!-- export of ddwtos type is not supported  -->
+</div>
+
+
+
+<!-- question: 106840  name: instruction -->
+<div class="question">
+<h3>instruction</h3>
+<p class="questiontext"><h3>CITY UNIVERSITY OF HONG KONG</h3>
+
+<hr>
+
+<table>
+<tr>
+<td>Course code & title</td><td>: CS5483 Data Warehousing and Data Mining</td>
+</tr>
+<tr>
+<td>Session</td><td>: Semester B 2022/23</td>
+</tr>
+<tr>
+<td>Time allowed</td><td>: Two hours</td>
+</tr>
+</table>
+
+<hr>
+
+<ul>
+<li>This is a <strong>computerized examination</strong> that requires <strong>internet access</strong>. </li>
+<li>There are <strong>NO printings</strong> of question papers or answer books.</li>
+</ul>
+
+<hr>
+
+<ul>
+<li>Answer <u>ALL</u> questions via the <u>Safe Exam Browser on your designated Lab PC</u>.</li>
+<li>For numerical answers that are not integer, they must be accurate at least up to <u>3 significant figures</u>. Equivalent <u>algebraic forms</u> without simplification are acceptable.</li>
+</ul>
+
+<hr>
+
+<p>This is a <strong>closed-book</strong> examination.</p>
+
+<table frame="box" style="border-style:dotted;">
+  <tr>
+    <td style="padding: 5px;">
+Students are allowed to use the following materials/aids:
+
+<ul>
+<li>blank scratch papers;</li>
+<li>university approved calculators; and</li>
+<li>online python tutor: <a href="https://dive4dec.github.io/optlite/live.html"target="_blank">https://dive4dec.github.io/optlite/live.html</a></li>
+</ul>
+
+Materials/aids other than those stated above are not permitted. Students will be subject to disciplinary action if any unauthorized materials or aids are found on them.
+</td>
+  </tr>
+</table>
+</p>
+</div>
+
+
+
+<!-- question: 106778  name: BUC -->
+<div class="question">
+<h3>BUC</h3>
+<p class="questiontext"><p>Give the BUC algorithm by <strong>reordering</strong> the following steps.</p>
+
+<div class="note">
+To properly test your understanding, bodies of any loops/conditionals are not indented. You are also <strong>not</strong> required to mark the beginnings/endings of loops/conditionals.
+</div>
+
+<p><b>Input</b>:</p>
+
+<ul>
+<li>input data <code>input</code> corresponding to a cell,</li>
+<li>starting dimension <code>dim</code> for the search, and</li>
+<li>the minimum support <code>min_sup</code> for the iceberg condition.</li>
+</ul>
+
+<p><b>Output</b>: All cells in the iceberg cube along dimensions starting from <code>dim</code>.</p>
+
+<p><strong>Procedure</strong> BUC(<code>input</code>, <code>dim</code>, <code>min_sup</code>)</p>
+</p>
+<!-- export of ordering type is not supported  -->
+</div>
+
+
+
+<!-- question: 106764  name: DBSCAN algorithm -->
+<div class="question">
+<h3>DBSCAN algorithm</h3>
+<p class="questiontext"><span class="filter_mathjaxloader_equation"><p>Give the DBSCAN algorithm by <strong>reordering</strong> the following steps.</p>
+
+<div class="note">
+To properly test your understanding, bodies of any loops/conditionals are not indented. You are also <strong>not</strong> required to mark the beginnings/endings of loops/conditionals.
+</div>
+<p>
+<b>Input</b>: Dataset <span class="nolink">\(D:=\{\boldsymbol{p}_i\}_{i=1}^n\)</span> and parameters <span class="nolink">\((\epsilon, \operatorname{MinPts})\)</span> for density-connectedness.
+</p>
+<p>
+<b>Output</b>: A partition of <span class="nolink">\(D
+\)</span> into clusters <span class="nolink">\(C_1,\dots,C_k\)</span> and a set <span class="nolink">\(N\)</span> of noise points.
+</p></span></p>
+<!-- export of ordering type is not supported  -->
+</div>
+
+
+
+<!-- question: 106781  name: Aggregate functions and frequent itemsets -->
+<div class="question">
+<h3>Aggregate functions and frequent itemsets</h3>
+<p class="questiontext"><style type="text/css">
+        .dt {border: 1px solid black; border-spacing:0px;}
+        .dt .dt-box{border: 1px solid black;text-align:left;vertical-align:top;padding:10px;}
+        .dt .dt-tr{border-top: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:5px;}
+        .dt .dt-br{border-bottom: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:0px;}
+    </style>
+
+<p>Categorize the different facts below and choose "none" if none of the other descriptions apply.</p>
+
+
+<div class="sol">
+    <table class="dt">
+        <thead>
+            <tr>
+              <th class="dt-box">Category</th>
+              <th class="dt-box">Fact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans1]] [[validation:ans1]]
+              </td>
+            <td class="dt-tr">{@s[1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt1]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans2]] [[validation:ans2]]
+              </td>
+            <td class="dt-tr">{@s[2]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt2]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans3]] [[validation:ans3]]
+              </td>
+            <td class="dt-tr">{@s[3]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt3]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans4]] [[validation:ans4]]
+              </td>
+            <td class="dt-tr">{@s[4]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt4]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans5]] [[validation:ans5]]
+              </td>
+            <td class="dt-tr">{@s[5]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt5]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans6]] [[validation:ans6]]
+              </td>
+            <td class="dt-tr">{@s[6]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt6]]
+              </td>
+            </tr>
+        </tbody>
+    </table>
+</div></p>
+<!-- export of stack type is not supported  -->
+</div>
+
+
+
+<!-- question: 106819  name: Apriori and Association Rule -->
+<div class="question">
+<h3>Apriori and Association Rule</h3>
+<p class="questiontext"><span class="filter_mathjaxloader_equation"><p>Consider the following transactional data where each transaction is an itemset consisting of different brands of camera lenses purchased:
+</p>
+
+<style type="text/css">
+        .dt {border: 1px solid black; border-spacing:0px;}
+        .dt .dt-box{border: 1px solid black;text-align:left;vertical-align:top;padding:10px;}
+        .dt .dt-tr{border-top: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:5px;}
+        .dt .dt-br{border-bottom: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:0px;}
+        .dt .dt-vc{border-bottom: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:center;padding:0px;}
+    </style>
+
+<div>
+    <table class="dt">
+        <thead>
+            <tr>
+                <th class="dt-box">Transaction ID</th>
+                <th class="dt-box">Set of brands of purchased lenses</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td class="dt-tr"><span class="nolink">\(T_1\)</span></td>
+                <td class="dt-tr"><span class="nolink">\({@D_tex[1]@}\)</span></td>
+            </tr>
+            <tr>
+
+                <td class="dt-tr"><span class="nolink">\(T_2\)</span></td>
+                <td class="dt-tr"><span class="nolink">\({@D_tex[2]@}\)</span></td>
+            </tr>
+            <tr>
+
+                <td class="dt-tr"><span class="nolink">\(T_3\)</span></td>
+                <td class="dt-tr"><span class="nolink">\({@D_tex[3]@}\)</span> </td>
+            </tr>
+            <tr>
+
+                <td class="dt-tr"><span class="nolink">\(T_4\)</span></td>
+                <td class="dt-tr"><span class="nolink">\({@D_tex[4]@}\)</span></td>
+            </tr>
+            <tr>
+
+                <td class="dt-tr"><span class="nolink">\(T_5\)</span></td>
+                <td class="dt-tr"><span class="nolink">\({@D_tex[5]@}\)</span></td>
+            </tr>
+            <tr>
+
+                <td class="dt-tr"><span class="nolink">\(T_6\)</span></td>
+                <td class="dt-tr"><span class="nolink">\({@D_tex[6]@}\)</span></td>
+            </tr>
+            <tr>
+
+                <td class="dt-tr"><span class="nolink">\(T_7\)</span></td>
+                <td class="dt-tr"><span class="nolink">\({@D_tex[7]@}\)</span></td>
+            </tr>
+            <tr>
+
+                <td class="dt-tr"><span class="nolink">\(T_8\)</span></td>
+                <td class="dt-tr"><span class="nolink">\({@D_tex[8]@}\)</span></td>
+            </tr>
+            <tr>
+
+                <td class="dt-tr"><span class="nolink">\(T_9\)</span></td>
+                <td class="dt-tr"><span class="nolink">\({@D_tex[9]@}\)</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p>The <strong>ordered list of all brands</strong> is <span class="nolink">\({@data_item@}.\)</span></p>
+
+<p>Complete the following table using the Apriori algorithm to identify all the frequent itemsets with a <strong>support count of at least 2</strong>. Give one candidate itemset in each row <strong>in the order generated</strong> by the Apriori algorithm according to the <strong>ascending lexicographical order</strong> of the item labels. Note that pruned itemsets should <strong>NOT</strong> enter the candidate list as they need not be counted.</p>
+
+<div class="sol">
+    <table class="dt">
+        <thead>
+            <tr>
+                <th class="dt-box"><span class="nolink">\(k\)</span></th>
+                <th class="dt-box">Candidate <span class="nolink">\(C_k\)</span></th>
+                <th class="dt-box">Count</th>
+                <th class="dt-box">Frequent?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5" class="dt-vc">1</td>
+                <td class="dt-tr">{@q1item[1]@}</td>
+                <td class="dt-tr">{@q1count[1]@}</td>
+                <td class="dt-tr">{@q1isFreq[1]@}</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">{@q1item[2]@}</td>
+                <td class="dt-tr">{@q1count[2]@}</td>
+                <td class="dt-tr">{@q1isFreq[2]@}</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">{@q1item[3]@}</td>
+                <td class="dt-tr">{@q1count[3]@}</td>
+                <td class="dt-tr">{@q1isFreq[3]@}</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">{@q1item[4]@}</td>
+                <td class="dt-tr">{@q1count[4]@}</td>
+                <td class="dt-tr">{@q1isFreq[4]@}</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">{@q1item[5]@}</td>
+                <td class="dt-tr">{@q1count[5]@}</td>
+                <td class="dt-tr">{@q1isFreq[5]@}</td>
+            </tr>
+            <tr>
+                <td rowspan="12" class="dt-vc">2</td>
+                <td class="dt-tr">[[input:D21]][[validation:D21]]</td>
+                <td class="dt-tr">[[input:C21]][[validation:C21]]</td>
+                <td class="dt-tr">[[input:F21]][[validation:F21]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br">[[feedback:prtD21]]</td>
+                <td class="dt-br">[[feedback:prtC21]]</td>
+                <td class="dt-br">[[feedback:prtF21]]</td>
+
+            </tr>
+            <tr>
+                <td class="dt-tr">[[input:D22]][[validation:D22]]</td>
+                <td class="dt-tr">[[input:C22]][[validation:C22]]</td>
+                <td class="dt-tr">[[input:F22]][[validation:F22]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br">[[feedback:prtD22]]</td>
+                <td class="dt-br">[[feedback:prtC22]]</td>
+                <td class="dt-br">[[feedback:prtF22]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">[[input:D23]][[validation:D23]]</td>
+                <td class="dt-tr">[[input:C23]][[validation:C23]]</td>
+                <td class="dt-tr">[[input:F23]][[validation:F23]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br">[[feedback:prtD23]]</td>
+                <td class="dt-br">[[feedback:prtC23]]</td>
+                <td class="dt-br">[[feedback:prtF23]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">[[input:D24]][[validation:D24]]</td>
+                <td class="dt-tr">[[input:C24]][[validation:C24]]</td>
+                <td class="dt-tr">[[input:F24]][[validation:F24]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br">[[feedback:prtD24]]</td>
+                <td class="dt-br">[[feedback:prtC24]]</td>
+                <td class="dt-br">[[feedback:prtF24]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">[[input:D25]][[validation:D25]]</td>
+                <td class="dt-tr">[[input:C25]][[validation:C25]]</td>
+                <td class="dt-tr">[[input:F25]][[validation:F25]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br">[[feedback:prtD25]]</td>
+                <td class="dt-br">[[feedback:prtC25]]</td>
+                <td class="dt-br">[[feedback:prtF25]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">[[input:D26]][[validation:D26]]</td>
+                <td class="dt-tr">[[input:C26]][[validation:C26]]</td>
+                <td class="dt-tr">[[input:F26]][[validation:F26]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br">[[feedback:prtD26]]</td>
+                <td class="dt-br">[[feedback:prtC26]]</td>
+                <td class="dt-br">[[feedback:prtF26]]</td>
+            </tr>
+            <tr>
+                <td rowspan="8" class="dt-vc">3</td>
+                <td class="dt-tr">[[input:D31]][[validation:D31]]</td>
+                <td class="dt-tr">[[input:C31]][[validation:C31]]</td>
+                <td class="dt-tr">[[input:F31]][[validation:F31]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br">[[feedback:prtD31]]</td>
+                <td class="dt-br">[[feedback:prtC31]]</td>
+                <td class="dt-br">[[feedback:prtF31]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">[[input:D32]][[validation:D32]]</td>
+                <td class="dt-tr">[[input:C32]][[validation:C32]]</td>
+                <td class="dt-tr">[[input:F32]][[validation:F32]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br">[[feedback:prtD32]]</td>
+                <td class="dt-br">[[feedback:prtC32]]</td>
+                <td class="dt-br">[[feedback:prtF32]]</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="part">
+    <p>
+        Give the pruned itemsets in each row <strong>in the order pruned</strong> by the Apriori algorithm according to the <strong>ascending lexicographical order</strong> of the item labels.
+    </p>
+    <div class="sol">
+        <table class="dt">
+            <tbody>
+                <tr>
+                    <th class="dt-tr">First pruned itemset:</th>
+                    <td class="dt-tr">[[input:Prune1]][[validation:Prune1]][[feedback:prtPrune1]]</td>
+                </tr>
+                <tr>
+                    <th class="dt-tr">Second pruned itemset:</th>
+                    <td class="dt-tr">[[input:Prune2]][[validation:Prune2]][[feedback:prtPrune2]]</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="part">
+        <p>Complete the following using the support-confidence framework to identify association rules with <strong>support at least 0.4 and confidence at least 0.5</strong>. List the rules in <strong>descending lexicographical order of (support, confidence, lift)</strong>, e.g., (0.5,0.6,1) should be before (0.4,0.6,2), which should be before (0.4,0.6,1).</p>
+        <div class="sol">
+            <table class="dt">
+                <tbody>
+                    <tr>
+                        <th class="dt-box">Association Rules</th>
+                        <th class="dt-box">Support</th>
+                        <th class="dt-box">Confidence</th>
+                        <th class="dt-box">Lift</th>
+                    </tr>
+                    <tr>
+                        <td class="dt-tr">{@q3aitem[1]@}<span class="nolink">\(\implies\)</span>{@q3bitem[1]@}</td>
+                        <td class="dt-tr">{@q3_numerical[1][1]@}</td>
+                        <td class="dt-tr">{@q3_numerical[2][1]@}</td>
+                        <td class="dt-tr">{@q3_numerical[3][1]@}</td>
+                    </tr>
+                    <tr>
+                        <td class="dt-tr">[[input:Premise2]][[validation:Premise2]]<span class="nolink">\(\implies\)</span>[[input:Consequence2]][[validation:Consequence2]]</td>
+                        <td class="dt-tr">[[input:Support2]][[validation:Support2]]</td>
+                        <td class="dt-tr">[[input:Confidence2]][[validation:Confidence2]]</td>
+                        <td class="dt-tr">[[input:Lift2]][[validation:Lift2]]</td>
+                    </tr>
+                    <tr>
+                        <td class="dt-br">[[feedback:Rule2]]</td>
+                        <td class="dt-br">[[feedback:Support2]]</td>
+                        <td class="dt-br">[[feedback:Confidence2]]</td>
+                        <td class="dt-br">[[feedback:Lift2]]</td>
+                    </tr>
+                    <tr>
+                        <td class="dt-tr">[[input:Premise3]][[validation:Premise3]]<span class="nolink">\(\implies\)</span>[[input:Consequence3]][[validation:Consequence3]]</td>
+                        <td class="dt-tr">[[input:Support3]][[validation:Support3]]</td>
+                        <td class="dt-tr">[[input:Confidence3]][[validation:Confidence3]]</td>
+                        <td class="dt-tr">[[input:Lift3]][[validation:Lift3]]</td>
+                    </tr>
+                    <tr>
+                        <td class="dt-br">[[feedback:Rule3]]</td>
+                        <td class="dt-br">[[feedback:Support3]]</td>
+                        <td class="dt-br">[[feedback:Confidence3]]</td>
+                        <td class="dt-br">[[feedback:Lift3]]</td>
+                    </tr>
+                    <tr>
+                        <td class="dt-tr">[[input:Premise4]][[validation:Premise4]]<span class="nolink">\(\implies\)</span>[[input:Consequence4]][[validation:Consequence4]]</td>
+                        <td class="dt-tr">[[input:Support4]][[validation:Support4]]</td>
+                        <td class="dt-tr">[[input:Confidence4]][[validation:Confidence4]]</td>
+                        <td class="dt-tr">[[input:Lift4]][[validation:Lift4]]</td>
+                    </tr>
+                    <tr>
+                        <td class="dt-br">[[feedback:Rule4]]</td>
+                        <td class="dt-br">[[feedback:Support4]]</td>
+                        <td class="dt-br">[[feedback:Confidence4]]</td>
+                        <td class="dt-br">[[feedback:Lift4]]</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div></span></p>
+<!-- export of stack type is not supported  -->
+</div>
+
+
+
+<!-- question: 106801  name: different classification algorithms -->
+<div class="question">
+<h3>different classification algorithms</h3>
+<p class="questiontext"><style type="text/css">
+        .dt {border: 1px solid black; border-spacing:0px;}
+        .dt .dt-box{border: 1px solid black;text-align:left;vertical-align:top;padding:10px;}
+        .dt .dt-tr{border-top: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:5px;}
+        .dt .dt-br{border-bottom: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:0px;}
+    </style>
+
+<p>Choose the classification algorithm associated with the description.</p>
+
+<div class="sol">
+    <table class="dt">
+        <thead>
+            <tr>
+              <th class="dt-box">Classification</th>
+              <th class="dt-box">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans1]] [[validation:ans1]]
+              </td>
+            <td class="dt-tr">{@s[1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt1]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans2]] [[validation:ans2]]
+              </td>
+            <td class="dt-tr">{@s[2]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt2]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans3]] [[validation:ans3]]
+              </td>
+            <td class="dt-tr">{@s[3]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt3]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans4]] [[validation:ans4]]
+              </td>
+            <td class="dt-tr">{@s[4]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt4]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans5]] [[validation:ans5]]
+              </td>
+            <td class="dt-tr">{@s[5]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt5]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans6]] [[validation:ans6]]
+              </td>
+            <td class="dt-tr">{@s[6]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt6]]
+              </td>
+            </tr>
+        </tbody>
+    </table>
+</div></p>
+<!-- export of stack type is not supported  -->
+</div>
+
+
+
+<!-- question: 106800  name: Ensemble methods -->
+<div class="question">
+<h3>Ensemble methods</h3>
+<p class="questiontext"><style type="text/css">
+        .dt {border: 1px solid black; border-spacing:0px;}
+        .dt .dt-box{border: 1px solid black;text-align:left;vertical-align:top;padding:10px;}
+        .dt .dt-tr{border-top: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:5px;}
+        .dt .dt-br{border-bottom: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:0px;}
+    </style>
+<p>
+Indicates whether the following statements about ensemble methods are correct:
+</p>
+
+<div class="sol">
+    <table class="dt">
+        <thead>
+            <tr>
+              <th class="dt-box">option</th>
+              <th class="dt-box">statement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="dt-tr">
+                  [[input:S1]][[validation:S1]]
+              </td>
+            <td class="dt-tr">{@stmts[1][1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prtS1]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:S2]][[validation:S2]]
+              </td>
+            <td class="dt-tr">{@stmts[2][1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prtS2]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:S3]][[validation:S3]]
+              </td>
+            <td class="dt-tr">{@stmts[3][1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prtS3]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:S4]][[validation:S4]]
+              </td>
+            <td class="dt-tr">{@stmts[4][1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prtS4]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:S5]][[validation:S5]]
+              </td>
+            <td class="dt-tr">{@stmts[5][1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prtS5]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:S6]][[validation:S6]]
+              </td>
+            <td class="dt-tr">{@stmts[6][1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prtS6]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:S7]][[validation:S7]]
+              </td>
+            <td class="dt-tr">{@stmts[7][1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prtS7]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:S8]][[validation:S8]]
+              </td>
+            <td class="dt-tr">{@stmts[8][1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prtS8]]
+              </td>
+            </tr>
+        </tbody>
+    </table>
+</div></p>
+<!-- export of stack type is not supported  -->
+</div>
+
+
+
+<!-- question: 106815  name: Failure -->
+<div class="question">
+<h3>Failure</h3>
+<p class="questiontext"><style type="text/css">
+        .dt {border: 1px solid black; border-spacing:0px;}
+        .dt .dt-box{border: 1px solid black;text-align:left;vertical-align:top;padding:10px;}
+        .dt .dt-tr{border-top: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:5px;}
+        .dt .dt-br{border-bottom: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:0px;}
+    </style>
+
+<p>Select the issue associated with the description. Choose "none" if none of the other options apply.</p>
+
+
+<div class="sol">
+    <table class="dt">
+        <thead>
+            <tr>
+              <th class="dt-box">Issue</th>
+              <th class="dt-box">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans1]] [[validation:ans1]]
+              </td>
+            <td class="dt-tr">{@s[1]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt1]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans2]] [[validation:ans2]]
+              </td>
+            <td class="dt-tr">{@s[2]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt2]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans3]] [[validation:ans3]]
+              </td>
+            <td class="dt-tr">{@s[3]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt3]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans4]] [[validation:ans4]]
+              </td>
+            <td class="dt-tr">{@s[4]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt4]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans5]] [[validation:ans5]]
+              </td>
+            <td class="dt-tr">{@s[5]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt5]]
+              </td>
+            </tr>
+            <tr>
+              <td class="dt-tr">
+                  [[input:ans6]] [[validation:ans6]]
+              </td>
+            <td class="dt-tr">{@s[6]@}</td>
+            </tr>
+            <tr>
+              <td class="dt-br" colspan="2">
+                  [[feedback:prt6]]
+              </td>
+            </tr>
+        </tbody>
+    </table>
+</div></p>
+<!-- export of stack type is not supported  -->
+</div>
+
+
+
+<!-- question: 106752  name: FOIL and Info Gain -->
+<div class="question">
+<h3>FOIL and Info Gain</h3>
+<p class="questiontext"><span class="filter_mathjaxloader_equation"><style type="text/css">
+        .dt {border: 1px solid black; border-spacing:0px;}
+        .dt .dt-box{border: 1px solid black;text-align:left;vertical-align:top;padding:10px;}
+        .dt .dt-tr{border-top: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:5px;}
+        .dt .dt-br{border-bottom: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:0px;}
+    </style>
+
+<p>
+    Consider the data <span class="nolink">\(D\)</span> containing information about customers of a subscription-based online platform:
+</p>
+<ul>
+    <li>{@fns[1]@}: A unique index for each customer.</li>
+    <li>{@fns[2]@}: Recent_promotion_used: A binary attribute with values {0,1}, representing whether the customer has used a recent promotion offered by the platform (1) or not (0).</li>
+    <li>{@fns[3]@}: Frequent_help_requests: A binary attribute with values {0,1}, representing whether the customer frequently requests help or customer support (1) or not (0).</li>
+    <li>{@fns[4]@}: The class attribute in {0,1} indicating whether the customer is likely to churn. </li>
+</ul>
+Using the hold-out method, the training set is chosen in the following way: <span class="nolink">\[D:={@data@} \xrightarrow{\text{hold-out}} D_{\text{train}}:={@trainset@},\]</span> and use <span class="nolink">\(D_{\text{test}}\)</span> for testing.
+
+
+<div class="note">
+    <ul>
+        <li>You may enter log base 2 as <code>log2</code>. E.g., <code>log2(x)</code> will evaluate to <code>log(x)/log(2)</code>, where <code>log</code> is the natural logarithm.</li>
+        <li>You may use the function <code>h</code> to compute the entropy (in bits) by providing the probability masses as arguments, e.g., <code>h(1/4,1/2,1/2)</code> evaluates to 1.5 bits.</li>
+    </ul>
+</div>
+
+Give the corresponding set of index <span class="nolink">\(i\)</span> for the remaining data <span class="nolink">\(D_{\text{test}}\)</span> for testing.
+
+<div class="note">
+  Enter an unordered set as comma separated values enclosed with braces. E.g., the set of indices <code>1,2,3</code> is entered as <code>{1,2,3}</code>.
+</div>
+
+<div class="sol">[[input:TESTIDS]] [[validation:TESTIDS]][[feedback:prtTESTIDS]]</div>
+
+
+Calculate the information quantities listed below.<p>
+</p>
+
+<div class="sol">
+    <table class="dt">
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Info}(D_{\text{train}})=\)</span>  [[input:INFOD]] [[validation:INFOD]] bit(s)</td>
+                </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtINFOD]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Info}_{\text{RP}}(D_{\text{train}})= \)</span>[[input:INFOX1]] [[validation:INFOX1]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtINFOX1]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{SplitInfo}_{\text{RP}}(D_{\text{train}}) =\)</span>[[input:SPLITX1]] [[validation:SPLITX1]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtSPLITX1]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Gain ratio of}~\text{RP}=\)</span> [[input:GRX1]] [[validation:GRX1]]</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtGRX1]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Info}_{\text{FH}}(D_{\text{train}})= \)</span>[[input:INFOX2]] [[validation:INFOX2]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtINFOX2]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{SplitInfo}_{\text{FH}}(D_{\text{train}}) =\)</span>[[input:SPLITX2]] [[validation:SPLITX2]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtSPLITX2]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Gain ratio of}~\text{FH}=\)</span> [[input:GRX2]] [[validation:GRX2]]</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtGRX2]]</td>
+        </tr> 
+    </table>
+</div>
+
+Based on the Gain Ratio of <span class="nolink">\(\text{RP}\)</span> and <span class="nolink">\(\text{FH}\)</span>, which one of the two features should be chosen?
+<div class="sol">
+    [[input:CHOICE1]] [[validation:CHOICE1]][[feedback:prtCHOICE1]]
+</div>
+
+Considering the training set <span class="nolink">\(D_{\text{train}}\)</span>, calculate the FOIL Gains respectively for adding each of the following conjuncts to the rule <span class="nolink">\(C=1\)</span>.<p>
+</p>
+
+<div class="sol">
+    <table class="dt">
+        <tr>
+            <td class="dt-tr">{@conjts[1]@}: [[input:FG1]] [[validation:FG1]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG1]]</td>
+        </tr>
+        <tr>
+            <td class="dt-tr">{@conjts[2]@}: [[input:FG2]] [[validation:FG2]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG2]]</td>
+        </tr>
+        <tr>
+            <td class="dt-tr">{@conjts[3]@}: [[input:FG3]] [[validation:FG3]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG3]]</td>
+        </tr>
+        <tr>
+            <td class="dt-tr">{@conjts[4]@}: [[input:FG4]] [[validation:FG4]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG4]]</td>
+        </tr>
+    </table>
+</div>
+
+
+Based on the FOIL Gains of <span class="nolink">\(\text{RP}\)</span> and <span class="nolink">\(\text{FH}\)</span>, which one of the two features should be chosen?
+<div class="sol">
+    [[input:CHOICE2]] [[validation:CHOICE2]][[feedback:prtCHOICE2]]
+</div></span></p>
+<!-- export of stack type is not supported  -->
+</div>
+
+
+
+<!-- question: 109055  name: FOIL and Info Gain (corrected) -->
+<div class="question">
+<h3>FOIL and Info Gain (corrected)</h3>
+<p class="questiontext"><span class="filter_mathjaxloader_equation"><style type="text/css">
+        .dt {border: 1px solid black; border-spacing:0px;}
+        .dt .dt-box{border: 1px solid black;text-align:left;vertical-align:top;padding:10px;}
+        .dt .dt-tr{border-top: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:5px;}
+        .dt .dt-br{border-bottom: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:0px;}
+    </style>
+
+<p>
+    Consider the data <span class="nolink">\(D\)</span> containing information about customers of a subscription-based online platform:
+</p>
+<ul>
+    <li>{@fns[1]@}: A unique index for each customer.</li>
+    <li>{@fns[2]@}: Recent_promotion_used: A binary attribute with values {0,1}, representing whether the customer has used a recent promotion offered by the platform (1) or not (0).</li>
+    <li>{@fns[3]@}: Frequent_help_requests: A binary attribute with values {0,1}, representing whether the customer frequently requests help or customer support (1) or not (0).</li>
+    <li>{@fns[4]@}: The class attribute in {0,1} indicating whether the customer is likely to churn. </li>
+</ul>
+Using the hold-out method, the training set is chosen in the following way: <span class="nolink">\[D:={@data@} \xrightarrow{\text{hold-out}} D_{\text{train}}:={@trainset@},\]</span> and use <span class="nolink">\(D_{\text{test}}\)</span> for testing.
+
+
+<div class="note">
+    <ul>
+        <li>You may enter log base 2 as <code>log2</code>. E.g., <code>log2(x)</code> will evaluate to <code>log(x)/log(2)</code>, where <code>log</code> is the natural logarithm.</li>
+        <li>You may use the function <code>h</code> to compute the entropy (in bits) by providing the probability masses as arguments, e.g., <code>h(1/4,1/2,1/2)</code> evaluates to 1.5 bits.</li>
+    </ul>
+</div>
+
+Give the corresponding set of index <span class="nolink">\(i\)</span> for the remaining data <span class="nolink">\(D_{\text{test}}\)</span> for testing.
+
+<div class="note">
+  Enter an unordered set as comma separated values enclosed with braces. E.g., the set of indices <code>1,2,3</code> is entered as <code>{1,2,3}</code>.
+</div>
+
+<div class="sol">[[input:TESTIDS]] [[validation:TESTIDS]][[feedback:prtTESTIDS]]</div>
+
+
+Calculate the information quantities listed below.<p>
+</p>
+
+<div class="sol">
+    <table class="dt">
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Info}(D_{\text{train}})=\)</span>  [[input:INFOD]] [[validation:INFOD]] bit(s)</td>
+                </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtINFOD]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Info}_{\text{RP}}(D_{\text{train}})= \)</span>[[input:INFOX1]] [[validation:INFOX1]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtINFOX1]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{SplitInfo}_{\text{RP}}(D_{\text{train}}) =\)</span>[[input:SPLITX1]] [[validation:SPLITX1]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtSPLITX1]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Gain ratio of}~\text{RP}=\)</span> [[input:GRX1]] [[validation:GRX1]]</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtGRX1]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Info}_{\text{FH}}(D_{\text{train}})= \)</span>[[input:INFOX2]] [[validation:INFOX2]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtINFOX2]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{SplitInfo}_{\text{FH}}(D_{\text{train}}) =\)</span>[[input:SPLITX2]] [[validation:SPLITX2]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtSPLITX2]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Gain ratio of}~\text{FH}=\)</span> [[input:GRX2]] [[validation:GRX2]]</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtGRX2]]</td>
+        </tr> 
+    </table>
+</div>
+
+Based on the Gain Ratio of <span class="nolink">\(\text{RP}\)</span> and <span class="nolink">\(\text{FH}\)</span>, which one of the two features should be chosen?
+<div class="sol">
+    [[input:CHOICE1]] [[validation:CHOICE1]][[feedback:prtCHOICE1]]
+</div>
+
+Considering the training set <span class="nolink">\(D_{\text{train}}\)</span>, calculate the FOIL Gains respectively for adding each of the following conjuncts to the rule <span class="nolink">\(C=1\)</span>.<p>
+</p>
+
+<div class="sol">
+    <table class="dt">
+        <tr>
+            <td class="dt-tr">{@conjts[1]@}: [[input:FG1]] [[validation:FG1]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG1]]</td>
+        </tr>
+        <tr>
+            <td class="dt-tr">{@conjts[2]@}: [[input:FG2]] [[validation:FG2]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG2]]</td>
+        </tr>
+        <tr>
+            <td class="dt-tr">{@conjts[3]@}: [[input:FG3]] [[validation:FG3]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG3]]</td>
+        </tr>
+        <tr>
+            <td class="dt-tr">{@conjts[4]@}: [[input:FG4]] [[validation:FG4]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG4]]</td>
+        </tr>
+    </table>
+</div>
+
+
+Based on the FOIL Gains of <span class="nolink">\(\text{RP}\)</span> and <span class="nolink">\(\text{FH}\)</span>, which one of the two features should be chosen?
+<div class="sol">
+    [[input:CHOICE2]] [[validation:CHOICE2]][[feedback:prtCHOICE2]]
+</div></span></p>
+<!-- export of stack type is not supported  -->
+</div>
+
+
+
+<!-- question: 106861  name: FOIL and Info Gain (moderated) -->
+<div class="question">
+<h3>FOIL and Info Gain (moderated)</h3>
+<p class="questiontext"><span class="filter_mathjaxloader_equation"><style type="text/css">
+        .dt {border: 1px solid black; border-spacing:0px;}
+        .dt .dt-box{border: 1px solid black;text-align:left;vertical-align:top;padding:10px;}
+        .dt .dt-tr{border-top: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:5px;}
+        .dt .dt-br{border-bottom: 1px solid black;border-right: 1px solid black;text-align:left;vertical-align:top;padding:0px;}
+    </style>
+
+<p>
+    Consider the data <span class="nolink">\(D\)</span> containing information about customers of a subscription-based online platform:
+</p>
+<ul>
+    <li>{@fns[1]@}: A unique index for each customer.</li>
+    <li>{@fns[2]@}: Recent_promotion_used: A binary attribute with values {0,1}, representing whether the customer has used a recent promotion offered by the platform (1) or not (0).</li>
+    <li>{@fns[3]@}: Frequent_help_requests: A binary attribute with values {0,1}, representing whether the customer frequently requests help or customer support (1) or not (0).</li>
+    <li>{@fns[4]@}: The class attribute in {0,1} indicating whether the customer is likely to churn. </li>
+</ul>
+Using the hold-out method, the training set is chosen in the following way: <span class="nolink">\[D:={@data@} \xrightarrow{\text{hold-out}} D_{\text{train}}:={@trainset@},\]</span> and use <span class="nolink">\(D_{\text{test}}\)</span> for testing.
+
+
+<div class="note">
+    <ul>
+        <li>You may enter log base 2 as <code>log2</code>. E.g., <code>log2(x)</code> will evaluate to <code>log(x)/log(2)</code>, where <code>log</code> is the natural logarithm.</li>
+        <li>You may use the function <code>h</code> to compute the entropy (in bits) by providing the probability masses as arguments, e.g., <code>h(1/4,1/2,1/2)</code> evaluates to 1.5 bits.</li>
+    </ul>
+</div>
+
+Given the corresponding set of index <span class="nolink">\(i\)</span> for the remaining data <span class="nolink">\(D_{\text{test}}\)</span> for testing.
+
+<div class="note">
+  Enter an unordered set as comma separated values enclosed with braces. E.g., the set of indices <code>1,2,3</code> is entered as <code>{1,2,3}</code>.
+</div>
+
+<div class="sol">[[input:TESTIDS]] [[validation:TESTIDS]][[feedback:prtTESTIDS]]</div>
+
+
+Calculate the information quantities listed below.<p>
+</p>
+
+<div class="sol">
+    <table class="dt">
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Info}(D_{\text{train}})=\)</span>  [[input:INFOD]] [[validation:INFOD]] bit(s)</td>
+                </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtINFOD]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Info}_{\text{RP}}(D_{\text{train}})= \)</span>[[input:INFOX1]] [[validation:INFOX1]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtINFOX1]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{SplitInfo}_{\text{RP}}(D_{\text{train}}) =\)</span>[[input:SPLITX1]] [[validation:SPLITX1]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtSPLITX1]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Gain ratio of}~\text{RP}=\)</span> [[input:GRX1]] [[validation:GRX1]]</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtGRX1]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Info}_{\text{FH}}(D_{\text{train}})= \)</span>[[input:INFOX2]] [[validation:INFOX2]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtINFOX2]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{SplitInfo}_{\text{FH}}(D_{\text{train}}) =\)</span>[[input:SPLITX2]] [[validation:SPLITX2]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtSPLITX2]]</td>
+        </tr>        
+        <tr>
+            <td class="dt-tr"><span class="nolink">\(\text{Gain ratio of}~\text{FH}=\)</span> [[input:GRX2]] [[validation:GRX2]]</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtGRX2]]</td>
+        </tr> 
+    </table>
+</div>
+
+Based on the Gain Ratio of <span class="nolink">\(\text{RP}\)</span> and <span class="nolink">\(\text{FH}\)</span>, which one of the two features should be chosen?
+<div class="sol">
+    [[input:CHOICE1]] [[validation:CHOICE1]][[feedback:prtCHOICE1]]
+</div>
+
+Considering the training set <span class="nolink">\(D_{\text{train}}\)</span>, calculate the FOIL Gains respectively for adding each of the following conjuncts to the rule <span class="nolink">\(Y=1\)</span>.<p>
+</p>
+
+<div class="sol">
+    <table class="dt">
+        <tr>
+            <td class="dt-tr">{@conjts[1]@}: [[input:FG1]] [[validation:FG1]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG1]]</td>
+        </tr>
+        <tr>
+            <td class="dt-tr">{@conjts[2]@}: [[input:FG2]] [[validation:FG2]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG2]]</td>
+        </tr>
+        <tr>
+            <td class="dt-tr">{@conjts[3]@}: [[input:FG3]] [[validation:FG3]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG3]]</td>
+        </tr>
+        <tr>
+            <td class="dt-tr">{@conjts[4]@}: [[input:FG4]] [[validation:FG4]] bit(s)</td>
+        </tr>
+        <tr>
+            <td class="dt-br">[[feedback:prtFG4]]</td>
+        </tr>
+    </table>
+</div>
+
+
+Based on the FOIL Gains of <span class="nolink">\(\text{RP}\)</span> and <span class="nolink">\(\text{FH}\)</span>, which one of the two features should be chosen?
+<div class="sol">
+    [[input:CHOICE2]] [[validation:CHOICE2]][[feedback:prtCHOICE2]]
+</div></span></p>
+<!-- export of stack type is not supported  -->
+</div>
+
+
+
+<!-- question: 106768  name: Single linkage and k-means -->
+<div class="question">
+<h3>Single linkage and k-means</h3>
+<p class="questiontext"><span class="filter_mathjaxloader_equation"><style type="text/css">
+        .dt {border: 1px solid black; border-spacing:0px;}
+        .dt .dt-box{border: 1px solid black;text-align:center;vertical-align:top;padding:10px;}
+        .dt .dt-tr{border-top: 1px solid black;border-right: 1px solid black;text-align:center;vertical-align:top;padding:5px;}
+        .dt .dt-br{border-bottom: 1px solid black;border-right: 1px solid black;text-align:center;vertical-align:top;padding:0px;}
+        .dt-vc{vertical-align:center;text-align:center;padding:30px;}
+    </style>
+
+<p>Consider clustering flowers based on their {@fns[2]@} and {@fns[3]@}:</p>
+
+
+<table>
+        <tr>
+            <td class="dt-vc"><span class="nolink">\[{@datawithindex@}\]</span></td>
+            <td class="dt-vc">{@plot([discrete,dataxy],[x,0,9],[y,0,8],[style, [points, 2,red]],[point_type, bullet], labellabelxy,[xlabel, "petal length"],[ylabel, "sepal length"],[size, 300,300])@}</td>
+        </tr>
+</table>
+
+
+<p>Complete the following table by applying the <strong>single-linkage method</strong> using the Euclidean distance <strong>without normalization</strong>.</p>
+
+<div class="note">
+    <ul>
+        <li>Initially, cluster index <span class="nolink">\(i\)</span> for <span class="nolink">\(i\in\{1,...,5\}\)</span> is assigned to the singleton cluster containing the <span class="nolink">\(i\)</span>-th instance. Larger cluster indices are assigned to <strong>newer clusters merged</strong> by the algorithm.
+        </li>
+        <li>Enter the set of two clusters to merge as a comma separated pair of cluster indices <strong>(NOT instance indices)</strong> enclosed using braces. E.g., enter <code>{1,{#n+1#}}</code> (or <code>{{#n+1#},1}</code>) to mean merging the singleton cluster indexed by <code>1</code> and the new cluster indexed by <code>{#n+1#}</code>.</li>
+    </ul>
+</div>
+
+<div class="sol">
+    <table class="dt">
+        <thead>
+            <tr>
+                <th class="dt-box">New cluster index</th>
+                <th class="dt-box">Set of two clusters to merge</th>
+                <th class="dt-box">Cophenetic distance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dt-tr">{#n+1#}</td>
+                <td class="dt-tr">{@cmerge[1]@}</td>
+                <td class="dt-tr">{@cdist[1]@}</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">{#n+2#}</td>
+                <td class="dt-tr">[[input:CM2]][[validation:CM2]]</td>
+                <td class="dt-tr">[[input:CD2]][[validation:CD2]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCM2]]</td>
+                <td class="dt-br">[[feedback:prtCD2]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">{#n+3#}</td>
+                <td class="dt-tr">[[input:CM3]][[validation:CM3]]</td>
+                <td class="dt-tr">[[input:CD3]][[validation:CD3]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCM3]]</td>
+                <td class="dt-br">[[feedback:prtCD3]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">{#n+4#}</td>
+                <td class="dt-tr">[[input:CM4]][[validation:CM4]]</td>
+                <td class="dt-tr">[[input:CD4]][[validation:CD4]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCM4]]</td>
+                <td class="dt-br">[[feedback:prtCD4]]</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p>Complete the following table by applying <strong><span class="nolink">\(k\)</span>-means clustering</strong> with <span class="nolink">\(k=2\)</span> using the Euclidean distance <strong>without normalization</strong>.</p>
+<div class="note">
+    <ul>
+        <li>To give a cluster, enter a comma separated list of instance indices <strong>(NOT cluster indices)</strong> enclosed by braces. E.g., <code>{1,2}</code> means a cluster of instances <code>1</code> and <code>2</code>. The clusters for each step should be computed for the cluster centers of the previous step. The randomly chosen initial cluster centers are given in Step 0.
+        </li>
+        <li>To give a cluster center, enter the values of {@fns[2]@} followed by {@fns[3]@} separately. The cluster centers for each step should be computed from the clusters of the current step.</li>
+    </ul>
+</div>
+
+
+<div class="sol">
+    <table class="dt">
+        <thead>
+            <tr>
+                <th class="dt-box">Step</th>
+                <th class="dt-box">Cluster 1</th>
+                <th class="dt-box">Cluster 2</th>
+                <th class="dt-box">Center of Cluster 1</th>
+                <th class="dt-box">Center of Cluster 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dt-tr">0</td>
+                <td class="dt-tr">&mdash;</td>
+                <td class="dt-tr">&mdash;</td>
+                <td class="dt-tr"><span class="nolink">\[({@ctrlist[1][1][1]@}, {@ctrlist[1][1][2]@})\]</span></td>
+                <td class="dt-tr"><span class="nolink">\[({@ctrlist[1][2][1]@}, {@ctrlist[1][2][2]@})\]</span></td>
+            </tr>
+            <tr>
+                <td class="dt-tr">1</td>
+                <td class="dt-tr">[[input:CL1c1]][[validation:CL1c1]]</td>
+                <td class="dt-tr">[[input:CL1c2]][[validation:CL1c2]]</td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT2c1a]][[validation:CT2c1a]]<br>
+                    {@fns[3]@}: [[input:CT2c1b]][[validation:CT2c1b]]
+                </td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT2c2a]][[validation:CT2c2a]]<br>
+                    {@fns[3]@}: [[input:CT2c2b]][[validation:CT2c2b]]
+                </td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCL1c1]]</td>
+                <td class="dt-br">[[feedback:prtCL1c2]]</td>
+                <td class="dt-br">[[feedback:CT2c1a]][[feedback:CT2c1b]]</td>
+                <td class="dt-br">[[feedback:CT2c2a]][[feedback:CT2c2b]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">2</td>
+                <td class="dt-tr">[[input:CL2c1]][[validation:CL2c1]]</td>
+                <td class="dt-tr">[[input:CL2c2]][[validation:CL2c2]]</td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT3c1a]][[validation:CT3c1a]]<br>
+                    {@fns[3]@}: [[input:CT3c1b]][[validation:CT3c1b]]
+                </td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT3c2a]][[validation:CT3c2a]]<br>
+                    {@fns[3]@}: [[input:CT3c2b]][[validation:CT3c2b]]
+                </td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCL2c1]]</td>
+                <td class="dt-br">[[feedback:prtCL2c2]]</td>
+                <td class="dt-br">[[feedback:CT3c1a]][[feedback:CT3c1b]]</td>
+                <td class="dt-br">[[feedback:CT3c2a]][[feedback:CT3c2b]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">3</td>
+                <td class="dt-tr">[[input:CL3c1]][[validation:CL3c1]]</td>
+                <td class="dt-tr">[[input:CL3c2]][[validation:CL3c2]]</td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT4c1a]][[validation:CT4c1a]]<br>
+                    {@fns[3]@}: [[input:CT4c1b]][[validation:CT4c1b]]
+                </td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT4c2a]][[validation:CT4c2a]]<br>
+                    {@fns[3]@}: [[input:CT4c2b]][[validation:CT4c2b]]
+                </td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCL3c1]]</td>
+                <td class="dt-br">[[feedback:prtCL3c2]]</td>
+                <td class="dt-br">[[feedback:CT4c1a]][[feedback:CT4c1b]]</td>
+                <td class="dt-br">[[feedback:CT4c2a]][[feedback:CT4c2b]]</td>
+            </tr>
+        </tbody>
+    </table>
+</div></span></p>
+<!-- export of stack type is not supported  -->
+</div>
+
+
+
+<!-- question: 109056  name: Single linkage and k-means (corrected) -->
+<div class="question">
+<h3>Single linkage and k-means (corrected)</h3>
+<p class="questiontext"><span class="filter_mathjaxloader_equation"><style type="text/css">
+        .dt {border: 1px solid black; border-spacing:0px;}
+        .dt .dt-box{border: 1px solid black;text-align:center;vertical-align:top;padding:10px;}
+        .dt .dt-tr{border-top: 1px solid black;border-right: 1px solid black;text-align:center;vertical-align:top;padding:5px;}
+        .dt .dt-br{border-bottom: 1px solid black;border-right: 1px solid black;text-align:center;vertical-align:top;padding:0px;}
+        .dt-vc{vertical-align:center;text-align:center;padding:30px;}
+    </style>
+
+<p>Consider clustering flowers based on their {@fns[2]@} and {@fns[3]@}:</p>
+
+
+<table>
+        <tr>
+            <td class="dt-vc"><span class="nolink">\[{@datawithindex@}\]</span></td>
+            <td class="dt-vc">{@plot([discrete,dataxy],[x,0,9],[y,0,8],[style, [points, 2,red]],[point_type, bullet], labellabelxy,[xlabel, "petal length"],[ylabel, "sepal length"],[size, 300,300])@}</td>
+        </tr>
+</table>
+
+
+<p>Complete the following table by applying the <strong>single-linkage method</strong> using the Euclidean distance <strong>without normalization</strong>.</p>
+
+<div class="note">
+    <ul>
+        <li>Initially, cluster index <span class="nolink">\(i\)</span> for <span class="nolink">\(i\in\{1,...,5\}\)</span> is assigned to the singleton cluster containing the <span class="nolink">\(i\)</span>-th instance. Larger cluster indices are assigned to <strong>newer clusters merged</strong> by the algorithm.
+        </li>
+        <li>Enter the set of two clusters to merge as a comma separated pair of cluster indices <strong>(NOT instance indices)</strong> enclosed using braces. E.g., enter <code>{1,{#n+1#}}</code> (or <code>{{#n+1#},1}</code>) to mean merging the singleton cluster indexed by <code>1</code> and the new cluster indexed by <code>{#n+1#}</code>.</li>
+    </ul>
+</div>
+
+<div class="sol">
+    <table class="dt">
+        <thead>
+            <tr>
+                <th class="dt-box">New cluster index</th>
+                <th class="dt-box">Set of two clusters to merge</th>
+                <th class="dt-box">Cophenetic distance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dt-tr">{#n+1#}</td>
+                <td class="dt-tr">{@cmerge[1]@}</td>
+                <td class="dt-tr">{@cdist[1]@}</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">{#n+2#}</td>
+                <td class="dt-tr">[[input:CM2]][[validation:CM2]]</td>
+                <td class="dt-tr">[[input:CD2]][[validation:CD2]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCM2]]</td>
+                <td class="dt-br">[[feedback:prtCD2]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">{#n+3#}</td>
+                <td class="dt-tr">[[input:CM3]][[validation:CM3]]</td>
+                <td class="dt-tr">[[input:CD3]][[validation:CD3]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCM3]]</td>
+                <td class="dt-br">[[feedback:prtCD3]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">{#n+4#}</td>
+                <td class="dt-tr">[[input:CM4]][[validation:CM4]]</td>
+                <td class="dt-tr">[[input:CD4]][[validation:CD4]]</td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCM4]]</td>
+                <td class="dt-br">[[feedback:prtCD4]]</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p>Complete the following table by applying <strong><span class="nolink">\(k\)</span>-means clustering</strong> with <span class="nolink">\(k=2\)</span> using the Euclidean distance <strong>without normalization</strong>.</p>
+<div class="note">
+    <ul>
+        <li>To give a cluster, enter a comma separated list of instance indices <strong>(NOT cluster indices)</strong> enclosed by braces. E.g., <code>{1,2}</code> means a cluster of instances <code>1</code> and <code>2</code>. The clusters for each step should be computed for the cluster centers of the previous step. The randomly chosen initial cluster centers are given in Step 0.
+        </li>
+        <li>To give a cluster center, enter the values of {@fns[2]@} followed by {@fns[3]@} separately. The cluster centers for each step should be computed from the clusters of the current step.</li>
+    </ul>
+</div>
+
+
+<div class="sol">
+    <table class="dt">
+        <thead>
+            <tr>
+                <th class="dt-box">Step</th>
+                <th class="dt-box">Cluster 1</th>
+                <th class="dt-box">Cluster 2</th>
+                <th class="dt-box">Center of Cluster 1</th>
+                <th class="dt-box">Center of Cluster 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dt-tr">0</td>
+                <td class="dt-tr">&mdash;</td>
+                <td class="dt-tr">&mdash;</td>
+                <td class="dt-tr"><span class="nolink">\[({@ctrlist[1][1][1]@}, {@ctrlist[1][1][2]@})\]</span></td>
+                <td class="dt-tr"><span class="nolink">\[({@ctrlist[1][2][1]@}, {@ctrlist[1][2][2]@})\]</span></td>
+            </tr>
+            <tr>
+                <td class="dt-tr">1</td>
+                <td class="dt-tr">[[input:CL1c1]][[validation:CL1c1]]</td>
+                <td class="dt-tr">[[input:CL1c2]][[validation:CL1c2]]</td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT2c1a]][[validation:CT2c1a]]<br>
+                    {@fns[3]@}: [[input:CT2c1b]][[validation:CT2c1b]]
+                </td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT2c2a]][[validation:CT2c2a]]<br>
+                    {@fns[3]@}: [[input:CT2c2b]][[validation:CT2c2b]]
+                </td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCL1c1]]</td>
+                <td class="dt-br">[[feedback:prtCL1c2]]</td>
+                <td class="dt-br">[[feedback:CT2c1a]][[feedback:CT2c1b]]</td>
+                <td class="dt-br">[[feedback:CT2c2a]][[feedback:CT2c2b]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">2</td>
+                <td class="dt-tr">[[input:CL2c1]][[validation:CL2c1]]</td>
+                <td class="dt-tr">[[input:CL2c2]][[validation:CL2c2]]</td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT3c1a]][[validation:CT3c1a]]<br>
+                    {@fns[3]@}: [[input:CT3c1b]][[validation:CT3c1b]]
+                </td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT3c2a]][[validation:CT3c2a]]<br>
+                    {@fns[3]@}: [[input:CT3c2b]][[validation:CT3c2b]]
+                </td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCL2c1]]</td>
+                <td class="dt-br">[[feedback:prtCL2c2]]</td>
+                <td class="dt-br">[[feedback:CT3c1a]][[feedback:CT3c1b]]</td>
+                <td class="dt-br">[[feedback:CT3c2a]][[feedback:CT3c2b]]</td>
+            </tr>
+            <tr>
+                <td class="dt-tr">3</td>
+                <td class="dt-tr">[[input:CL3c1]][[validation:CL3c1]]</td>
+                <td class="dt-tr">[[input:CL3c2]][[validation:CL3c2]]</td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT4c1a]][[validation:CT4c1a]]<br>
+                    {@fns[3]@}: [[input:CT4c1b]][[validation:CT4c1b]]
+                </td>
+                <td class="dt-tr">
+                    {@fns[2]@}: [[input:CT4c2a]][[validation:CT4c2a]]<br>
+                    {@fns[3]@}: [[input:CT4c2b]][[validation:CT4c2b]]
+                </td>
+            </tr>
+            <tr>
+                <td class="dt-br"></td>
+                <td class="dt-br">[[feedback:prtCL3c1]]</td>
+                <td class="dt-br">[[feedback:prtCL3c2]]</td>
+                <td class="dt-br">[[feedback:CT4c1a]][[feedback:CT4c1b]]</td>
+                <td class="dt-br">[[feedback:CT4c2a]][[feedback:CT4c2b]]</td>
+            </tr>
+        </tbody>
+    </table>
+</div></span></p>
+<!-- export of stack type is not supported  -->
+</div>
+
+
+
+<p class="submit">
+  <input type="submit" />
+</p>
+</form>
+</body>
+</html>
