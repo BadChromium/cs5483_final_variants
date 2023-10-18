@@ -4,7 +4,7 @@ root: README.md
 parts: 
   - caption: Variants details of the exam paper
     chapters:
-    - file paper_details/paper_details
+    - file: paper_details/paper_details
 
 parts: 
   - caption: Exam papers
