@@ -1,0 +1,14 @@
+format: jb-book
+file: README.md
+
+part: Variants details of the exam paper
+numbered: true
+chapters:
+- file paper_details/paper_details
+
+part: Exam papers
+numbered: true
+chapters:
+- file: example_paper_variants/final_demo
+- file: example_paper_variants/final_demo-1
+- file: example_paper_variants/final_demo-2
